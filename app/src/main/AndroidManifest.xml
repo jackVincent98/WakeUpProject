@@ -20,8 +20,8 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.jackv.wakeup.MainActivity" />
-
         </activity>
+
         <receiver android:name=".AlarmReceiver" android:process=":remote" />
     </application>
 </manifest>
